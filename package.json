@@ -7,9 +7,12 @@
   "author": {
     "name": "Evangelos Zotos",
 		"url": "https://github.com/evangeloszotos"
-  },
-  "main": "dist/index.js",
+	},
+	"files":["lib/**/*"],
+  "main": "lib/index.js",
 	"scripts": {
+		"prepare": "npm run build",
+		"prepublishOnly" : "npm test",
     "build": "tsc -p tsconfig.prod.json",
     "build:dev": "tsc -p tsconfig.json",
 		"test": "jest"
