@@ -1,0 +1,38 @@
+{
+	"name": "array-if-then-else",
+	"version": "0.1.0",
+	"description": "If a specific value is in an Array Then it returns a value - Else it returns a different value",
+	"license": "MIT",
+  "repository": "evangeloszotos/array-if-then-else",
+  "author": {
+    "name": "Evangelos Zotos",
+		"url": "https://github.com/evangeloszotos"
+  },
+  "main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest"
+	},
+	"dependencies": {
+		"is-function": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/jest": "^23.3.13",
+		"jest": "^23.6.0",
+		"ts-jest": "^23.10.5",
+		"typescript": "^3.2.4"
+	},
+  "keywords": [
+		"array",
+		"if",
+		"then",
+		"else",
+		"array some",
+		"some",
+		"array condition",
+		"args",
+		"arg",
+		"array analysis",
+		"callback"
+	]
+}
