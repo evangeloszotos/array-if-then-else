@@ -38,4 +38,3 @@ function arraySomeWithBooleanCallback(array, callback) {
     }
     return result;
 }
-//# sourceMappingURL=index.js.map

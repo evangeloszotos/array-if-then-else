@@ -1,16 +1,8 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": { "*": ["types/*"] },
-    "target": "es2017",
-    "module": "commonjs",
-    "outDir": "dist",
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "pretty": true,
-    "declaration": true    
-  },
-  
-  "include": ["src/index.ts"],
-  "exclude": ["node_modules"]
+	"extends": "./tsconfig.prod.json",
+	"compilerOptions": {
+		"sourceMap": true,		
+	},
+	"include": ["src/index.ts"],
+	"exclude": ["node_modules"]
 }
